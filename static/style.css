@@ -95,3 +95,56 @@ button:active {
     box-shadow: 0 5px #666;
     transform: translateY(8px);
   }
+
+  @media all and (max-width:585px){
+    .grid{
+        width:100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: auto;
+        margin-left: 0%;
+        text-align: center;
+        align-items: center;
+    }
+    .content{
+        width:100%;
+        margin-left: 0%;
+        margin-top: 450px;
+        padding-bottom: 50px;
+    }
+    .description{
+        width:100%;
+       text-align: center;
+    }
+    .bodycontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    #embed{
+    
+        border:5px;
+        min-height: 30vw;
+        background-color: #a6d8ff;
+        border:3px solid rgb(139, 0, 69);
+        border-radius: 10px;
+        padding:20px auto;
+        color:rgb(139, 0, 69);
+        cursor:text;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    textarea{
+        display:block;
+        min-width: 80%;
+        margin:auto;
+        resize: none;
+        background-color: #a6d8ff;
+        border:3px solid rgb(139, 0, 69);
+        border-radius: 10px;
+        color:rgb(139, 0, 69);
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+  }
